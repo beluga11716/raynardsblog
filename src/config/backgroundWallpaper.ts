@@ -40,11 +40,11 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 	src: {
 		// 桌面背景图片（支持单张或多张随机）
 		// desktop: "assets/images/DesktopWallpaper/d1.avif",
-		desktop: "https://img.raynard.lol/random?type=img&dir=wallpaper&orientation=landscape",
+		desktop: "https://tu.raynard.lol/random?type=img&dir=wallpaper&orientation=landscape",
 	 
 		// 移动背景图片（支持单张或多张随机）
 		// mobile: "assets/images/MobileWallpaper/m1.avif",
-		mobile: "https://img.raynard.lol/random?type=img&dir=wallpaper&orientation=portrait",
+		mobile: "https://tu.raynard.lol/random?type=img&dir=wallpaper&orientation=portrait",
 	},
 	// 横幅壁纸和全屏壁纸共享配置
 	common: {
