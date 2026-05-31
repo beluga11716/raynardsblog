@@ -23,7 +23,8 @@ draft: false
 - 苹果设备的系统要求符合下面表格中的设备 并对于安装不同版本的trollstore
 > [!important]
 > 如果您的设备运行的是 iOS 14.0 beta 1或更早版本，运行的是 iOS 16.7.x（不包括 16.7 RC (20H18)），或者运行的是 iOS 17.0.1 或更高版本，则 TrollStore 将永远不会支持它。
-![image.png](https://img.raynard.lol/file/blog/1779079870121_image.png)
+
+![image.png](https://tu.raynard.lol/file/blog/1780240667770.png)
 
 ## step2 安装TrollRestore
 

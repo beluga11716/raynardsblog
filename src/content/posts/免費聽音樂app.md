@@ -14,16 +14,19 @@ draft: false
 
 項目描述：「一個第三方音樂播放器、本地服務、桌面歌詞、音樂下載、最高音質。」 支援網易雲帳號登入與同步、播放歷史記錄、歌曲收藏管理，以及沉浸式歌詞顯示等功能。
 
-<img width="2560" height="1214" alt="Image" src="https://github.com/user-attachments/assets/2db98bf0-543a-4748-be50-905ad1a44282" />
+![image.png](https://tu.raynard.lol/file/blog/1780237396868.png)
 
 **網頁端體驗**：無需安裝，直接訪問 [其官網](http://mc.alger.fun/#/)（或官方提及的 music.alger.fun）即可免費聽音樂，介面乾淨且顏值高，無廣告干擾。
 
-項目 GitHub 地址：https://github.com/algerkong/AlgerMusicPlayer
+項目 GitHub 地址：
+::github{repo="algerkong/AlgerMusicPlayer"}
 
 **Android 用戶端**：可透過 Cookie 登入網易雲帳號，作為網易雲第三方用戶端使用，實現收藏、歌單等資料同步。網頁端 Cookie 通用，可使用瀏覽器擴充功能抓取 Cookie 後匯入用戶端。
 
-推薦 Cookie 抓取擴充功能（Chrome/Edge 等瀏覽器）：  
+> [!NOTE] NOTE
+>推薦 Cookie 抓取擴充功能（Chrome/Edge 等瀏覽器）：  
 **[Cookie Editor](https://chromewebstore.google.com/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm)**
+![image.png](https://tu.raynard.lol/file/blog/1780237589822.png)
 
 開發者強調：「希望大家還是要多多支持官方正版，此軟件僅用作開發教學。」
 
@@ -32,8 +35,10 @@ draft: false
 **落雪音樂（LX Music）** 是一個基於 Electron & Vue 開發的免費&開源音樂軟件，支援多平台運行。
 
 **項目地址**：
-- 桌面版：https://github.com/lyswhut/lx-music-desktop
-- 移動版：https://github.com/lyswhut/lx-music-mobile
+- 桌面版：
+::github{repo="lyswhut/lx-music-desktop"}
+- 移動版：
+::github{repo="lyswhut/lx-music-mobile"}
 - 官網：https://lxmusic.toside.cn/
 
 **官方音樂源**（線上匯入推薦）：  
@@ -44,7 +49,7 @@ draft: false
 > [!IMPORTANT]  
 > 落雪音樂的音源具有不穩定性，受網絡、版權及源維護影響，可能出現部分歌曲無法播放或音質波動的情況。請定期更新音源，並結合多源使用以獲得更好體驗。
 
-軟件下載請優先從 GitHub Releases 官方頁面獲取，避免第三方渠道風險。
+軟件下載優先從 GitHub Releases 官方頁面獲取，避免第三方渠道風險。
 
 # 3. Spotify：全球主流音樂平台
 
@@ -53,7 +58,7 @@ draft: false
 > [!NOTE]
 > （其實有很多功能是缺失的 但是反耳呢 瀏覽器插件又彌補了這點）
 
-<img width="2560" height="1214" alt="Image" src="https://github.com/user-attachments/assets/a71e885d-a34b-433f-9ede-2749e8e5c683" />
+![image.png](https://tu.raynard.lol/file/blog/1780237999575.png)
 
 > [!TIP]  
 > 因為我們 GFW 和 Spotify 政策的特性之間奇妙反應，我們可以在中國免梯在手機設備上聽到 Spotify 上的歌，最近小米更是直接在自家應用商店上架了 Spotify，就離譜。。。
