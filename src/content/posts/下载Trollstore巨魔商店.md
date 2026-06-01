@@ -55,6 +55,7 @@ draft: false
 
 > [!IMPORTANT] IMPORTANT
 > 点Install TrollStore （點之前记得挂梯子）
+
 ![image.png](https://tu.raynard.lol/file/blog/1780308044198.png)
 如果正常完成了 设备会再一次重启 然后你的桌面上就会有TrollStore了
 
