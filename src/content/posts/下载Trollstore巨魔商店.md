@@ -39,22 +39,23 @@ draft: false
 
 先把你的设备接到电脑上 电脑提示已连接你的设备后 点开 TrollRestore.exe
 
-![image.png](https://img.raynard.lol/file/blog/1779099930738_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780307953402.png)
 
 
 出现这个界面然后输入：`Tips` （直接复制粘贴）
 
 这时候你的设备会重启 重启完成之后 点开你的提示软件
 
-![image.png](https://img.raynard.lol/file/blog/1779098915182_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780307980396.png)
 
 <br>
 
 然后出现这个画面↓
-![image.png](https://img.raynard.lol/file/blog/1779177102128_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780308006013.png)
 
-点Install TrollStore （點之前记得挂梯子）
-
+> [!IMPORTANT] IMPORTANT
+> 点Install TrollStore （點之前记得挂梯子）
+![image.png](https://tu.raynard.lol/file/blog/1780308044198.png)
 如果正常完成了 设备会再一次重启 然后你的桌面上就会有TrollStore了
 
 使用就比较简单 下载一个ipa程序后选择用巨魔商店打开就行 它会问你要不要下载 直接install就行 然后你就成功安装了想要的app 并且是永久自签的

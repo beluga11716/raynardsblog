@@ -25,7 +25,7 @@ draft: false
 国际版几乎没有广告 但是不可以高度自定义 总体体验比较好 适合不怎么想花精力DIY 只想免去大部分广告的 而且国际版刷竖屏视频的体验较好 可以在[play store](https://play.google.com/store/apps/details?id=com.bilibili.app.in)上下载或者苹果app store下载 还有就是[apkmirror](https://www.apkmirror.com/apk/bilibili/bilibili/)也可以下载 但是要自己辨识一下安装包 有不同的版本 可以去网上看看想下的版本风评怎么样再下载
 
 (26-5-17二编 现在国际版没了已经 b站你这家伙也太狠了 国外市场直接不要的节奏啊)
-![image.png](https://img.raynard.lol/file/blog/1779024152361_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309119168.png)
 
 
 ## step2 在电脑上使用网页版bilibili

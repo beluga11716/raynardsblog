@@ -21,7 +21,7 @@ Bilibili-Evolved安装需要用 [Tampermonkey](https://tampermonkey.net/) 常称
 
 在安装完下载器后退出设置选项 刷新一遍网页后 点击一开始左侧图标上面的功能选项 就能看到下载视频的图标了 点击下载视频 调整好下载的参数后点击开始 左下角会弹出一个弹窗 如图
 
-![image.png](https://img.raynard.lol/file/blog/1779031322954_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309075860.png)
 
 点击弹窗中的视频标题 即可在浏览器下载视频
 

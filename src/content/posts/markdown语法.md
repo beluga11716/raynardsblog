@@ -1,5 +1,5 @@
 ---
-title: Markdown 书写指南/示例链接
+title: Markdown 书写指南/示例链接 (自用)
 published: 2026-05-18
 description: Markdown 书写指南/示例链接
 tags:
@@ -29,26 +29,26 @@ github小方块：
 提示：
 ```
 > [!NOTE] NOTE
-> 对应 GitHub 的 Note。
+> 
 
 > [!TIP] TIP
-> 对应 GitHub 的 Tip。
+> 
 
 > [!IMPORTANT] IMPORTANT
-> 对应 GitHub 的 Important。
+> 
 
 > [!WARNING] WARNING
-> 对应 GitHub 的 Warning。
+> 
 
 > [!CAUTION] CAUTION
-> 对应 GitHub 的 Caution。
+> 
 
 > [!TIP] 自定义标题
-> VitePress 风格同样支持自定义标题。
+> 
 ```
 隐藏文字：
 ```
-内容 :spoiler[被隐藏了 **哈哈**]！
+ :spoiler[内容]
 ```
 多张图片同一行横向展示：
 ```

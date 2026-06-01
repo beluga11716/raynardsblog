@@ -15,7 +15,7 @@ draft: false
 
 # **1.Venera**  
 
-![image.png](https://img.raynard.lol/file/blog/1779109712255_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309166658.png)
 
 A comic reader that support reading local and network comics.
 
@@ -23,7 +23,7 @@ A comic reader that support reading local and network comics.
 
 > [!important]
 > （2026.5.18二編 venera已經停止更新了 有遇到嚴重bug的話就別用了）
-> ![image.png](https://img.raynard.lol/file/blog/1779109815287_image.png)
+> ![image.png](https://tu.raynard.lol/file/blog/1780309183733.png)
 
 **原项目**:
 
@@ -45,11 +45,11 @@ https://git.nyne.dev/nyne/venera-configs/raw/branch/main/index.json
 # 2.漫閱
 刷b站看到這條評論 瞭解了一下發現這基本上就是venera的復刻 可以考慮看看用這個
 
-![image.png](https://img.raynard.lol/file/blog/1779109237051_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309276149.png)
 
 故來補充一個漫閱 對蘋果利好 可直接在[App Store下載](https://apps.apple.com/cn/app/%E6%BC%AB%E9%98%85-%E6%BC%AB%E7%94%BB%E4%BA%BA%E9%83%BD%E7%88%B1%E7%9A%84%E6%BC%AB%E7%94%BB%E9%98%85%E8%AF%BB%E7%A5%9E%E5%99%A8/id6753895889)
 
-![image.png](https://img.raynard.lol/file/blog/1779117942319_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309209783.png)
 
 附一個漫畫源項目地址：
 
@@ -57,16 +57,16 @@ https://git.nyne.dev/nyne/venera-configs/raw/branch/main/index.json
 
 也就是前面的rawrepo來源的倉庫 往下翻readme.md的文檔可以看到 直接複製這個鏈接導入就行
 
-![image.png](https://img.raynard.lol/file/blog/1779115535325_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309359178.png)
 
 
 <br>
 
 # 3.Mihon（Android）
 
-![image.png](https://img.raynard.lol/file/blog/1779118027334_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309370884.png)
 
-**官網 / GitHub 描述**：  
+**GitHub 描述**：  
 Mihon 是免費且開源的 Android 漫畫閱讀器。「Full-featured reader. Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.」
 
 **優點**：  
@@ -96,7 +96,7 @@ https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 
 # 4.Tachimanga（iOS）
 
-![image.png](https://img.raynard.lol/file/blog/1779118295048_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309394228.png)
 
 **GitHub 描述**：  
 「Tachimanga is a full-featured manga reader for iOS. Supports manga in ZIP/CBZ and EPUB formats. Supports reading manga from Komga, which is a self-hosted manga server.」它是 Tachiyomi 的 iOS 非官方移植版。
@@ -124,7 +124,11 @@ https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 
 # 5.Kotatsu（Android）
 
-![image.png](https://img.raynard.lol/file/blog/1779118422403_image.png)
+[grid]
+![image.png](https://tu.raynard.lol/file/blog/1780310163995.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309574748.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309551116.png)
+[/grid]
 
 > [!tip]
 > kotatsu的原項目已經停更 我把鏈接換成了kotatsu_redo 和原來一樣的 只不過redo還在更新內置漫畫源
@@ -147,7 +151,7 @@ https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 
 # 6.Komikku（Android）
 
-![image.png](https://img.raynard.lol/file/blog/1779118524574_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780309453443.png)
 
 **官網 / GitHub 描述**：  
 「A free and open source manga reader which is based off TachiyomiSY & Mihon/Tachiyomi. This fork is meant to provide new & useful features while regularly take features/updates from Mihon or other forks.」**它是 Mihon 與其他 fork 的綜合版，致力加入實用新功能。**
@@ -197,23 +201,21 @@ https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json
 
 **堅果雲雲同步教程：https://docs.reeden.app/sync_jianguoyun**
 
-~~我们首先需要一个支持webdav的网盘~~
+ :spoiler[我们首先需要一个支持webdav的网盘]
 
 
-~~这个是infiniclould 链接：https://infini-cloud.net/en/index.html~~
-~~注册登录后会送20g的免费云盘空间~~
+ :spoiler[这个是infiniclould 链接：https://infini-cloud.net/en/index.html 注册登录后会送20g的免费云盘空间]
 
 
 
-~~然后我们在my page的页面往下翻 会看到一个关于 **_链接第三方app_** 的选项 把它勾选 等一会 就能看到类似这样的画面内容~~
+:spoiler[然后我们在my page的页面往下翻 会看到一个关于 **_链接第三方app_** 的选项 把它勾选 等一会 就能看到类似这样的画面内容]
 
 
-~~我们记住这三个内容接着打开venera 在右上角设置→应用→数据同步 然后就能看到~~
+:spoiler[我们记住这三个内容接着打开venera 在右上角设置→应用→数据同步 然后就能看到]
 
+:spoiler[把上面在mypage那里infiniclould分配的密码和网址填进去 （跳过设置项不填）接着点击继续就行]
 
-~~把上面在mypage那里infiniclould分配的密码和网址填进去 （跳过设置项不填）接着点击继续就行~~
-
-~~然后在别的设备上也是同样的操作 就可以实现云同步功能~~
+:spoiler[然后在别的设备上也是同样的操作 就可以实现云同步功能]
 
 
 

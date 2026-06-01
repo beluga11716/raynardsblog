@@ -11,7 +11,7 @@ draft: false
 
 基于自定义规则的番剧采集APP，支持流媒体在线观看，支持弹幕，支持实时超分辨率
 
-![kazumi.png](https://img.raynard.lol/file/blog/1779108008875_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780308735682.png)
 
 <br>
 
@@ -29,7 +29,7 @@ draft: false
 
 很方便的动漫软件 但是自定义程度和动画丝滑度没有kazumi那么好
 
-![animeko.png](https://img.raynard.lol/file/blog/1779108102502_image.png)
+![image.png](https://tu.raynard.lol/file/blog/1780308740330.png)
 
 **_原项目地址_**：
 
