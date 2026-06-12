@@ -96,7 +96,10 @@ AstrBot 是一款强大的开源 AI 聊天机器人框架，支持多种大模�
 **PuTTY** 是经典的 SSH 客户端，支持 Windows 连接 Linux 服务器。
 当然也可以用finalshell 图形化界面更友好 这里推荐putty是因为足够小且简单 
 
-官方下载地址：https://www.putty.org/ （或 GitHub 搜索 "PuTTY"）
+> 官方下载地址：[putty ](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+> github：
+::github{repo="larryli/PuTTY"}
 
 - 下载并安装 PuTTY。
 - 输入服务器 IP，**端口 22**（此为内网 SSH 端口，必须在服务器后台映射为公网端口才能外部连接）。
