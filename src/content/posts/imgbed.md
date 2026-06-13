@@ -1,12 +1,15 @@
 ---
-title: "imgbed"
+title: imgbed
 published: 2026-06-13
 updated: 2026-06-13
-description: " "
-tags: [utility_tools, markdown, MBGA, ACGN, blog, just_for_fun]
-category: 
+description: 如何拥有一个属于自己的私人图床
+tags:
+  - utility_tools
+  - blog
+  - just_for_fun
+category: utility tools
 draft: false
-slug: 
+slug: imgbed
 author: raynard
 ---
 # CloudFlare-ImgBed + Cloudflare R2 完整搭建指南（2025）
