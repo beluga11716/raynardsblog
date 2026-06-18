@@ -2,14 +2,14 @@
 title: Qtscrcpy
 published: 2026-06-13
 updated: 2026-06-13
-description: "QtScrcpy：比 scrcpy 更好用的开源投屏神器，一键投屏 + 手机群控全教程（免费、无广告、无需 Root）"
+description: QtScrcpy：比 scrcpy 更好用的开源投屏神器，一键投屏 + 手机群控全教程（免费、无广告、无需 Root）
 tags:
   - utility_tools
   - ACGN
   - blog
   - just_for_fun
 category: APP
-draft: true
+draft: false
 slug: phone2pc
 author: raynard
 ---
