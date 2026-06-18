@@ -18,9 +18,8 @@ author: raynard
 
 Claude Code 官方推荐通过 npm 安装，需要 Node.js（18+，推荐 LTS 版本）。
 
-- **官方来源**：Node.js 官网（https://nodejs.org/）
+- **官方来源**：Node.js 官网：https://nodejs.org/zh-tw/download
 - **介绍**：Node.js 是一个开源、跨平台的 JavaScript 运行时环境，用于服务器端和命令行工具。
-- **Windows 下载地址**：https://nodejs.org/en/download/ （选择 Windows Installer，推荐 LTS 版本如 v22.x 或 v24.x）。
 
 **安装步骤**（图形界面）：
 1. 下载 .msi 安装程序并运行。
