@@ -1,5 +1,5 @@
 ---
-title: google eggs
+title: Google Easter Eggs
 published: 2026-06-19
 updated: 2026-06-19
 description: 一些好玩的谷歌彩蛋
