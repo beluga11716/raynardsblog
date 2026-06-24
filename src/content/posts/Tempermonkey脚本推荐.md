@@ -3,8 +3,8 @@ title: Tempermonkey脚本推荐
 published: 2026-04-04
 description: Tempermonkey脚本推荐
 tags:
-  - utility tools
   - s_i
+  - utility_tools
 category: utility tools
 slug: tempermonkey
 draft: false

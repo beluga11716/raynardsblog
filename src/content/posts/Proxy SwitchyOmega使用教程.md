@@ -2,7 +2,9 @@
 title: Proxy SwitchyOmega使用教程
 published: 2026-05-11
 description: Proxy SwitchyOmega使用教程
-tags: [utility tools, s_i]
+tags:
+  - s_i
+  - utility_tools
 category: utility tools
 slug: pso
 draft: false

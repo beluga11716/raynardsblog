@@ -2,7 +2,8 @@
 title: active windows
 published: 2026-03-01
 description: active windows
-tags: [utility tools]
+tags:
+  - utility_tools
 category: utility tools
 slug: active_windows
 draft: false

@@ -2,7 +2,8 @@
 title: github小專題
 published: 2026-03-21
 description: github小專題
-tags: [utility tools]
+tags:
+  - utility_tools
 category: utility tools
 slug: gh
 draft: false

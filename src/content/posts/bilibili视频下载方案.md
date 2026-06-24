@@ -2,7 +2,8 @@
 title: bilibili视频下载方案
 published: 2026-03-13
 description: bilibili视频下载方案
-tags: [utility tools]
+tags:
+  - utility_tools
 category: MBGA
 slug: bildownload
 draft: false

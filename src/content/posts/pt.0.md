@@ -2,7 +2,9 @@
 title: pt.0
 published: 2026-03-01
 description: pt.0
-tags: [utility tools, s_i]
+tags:
+  - s_i
+  - utility_tools
 category: utility tools
 draft: false
 ---

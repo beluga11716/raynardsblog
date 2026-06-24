@@ -2,7 +2,8 @@
 title: wake-up課程表
 published: 2026-04-04
 description: wake-up課程表
-tags: [utility tools]
+tags:
+  - utility_tools
 category: utility tools
 slug: wakeup
 draft: false

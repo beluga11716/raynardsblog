@@ -2,7 +2,8 @@
 title: Make Bilibili Great Again
 published: 2026-03-14
 description: Make Bilibili Great Again
-tags: [utility tools]
+tags:
+  - utility_tools
 category: MBGA
 slug: mbga
 draft: false
