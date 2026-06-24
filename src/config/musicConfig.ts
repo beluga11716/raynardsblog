@@ -8,13 +8,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	// 2. 导航栏：在本配置文件把showInNavbar设为false禁用即可
 
 	// 是否在导航栏显示音乐播放器入口
-	showInNavbar: true,
+	showInNavbar: false,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
-	volume: 0.7,
+	volume: 0,
 
 	// 播放模式：'list'=列表循环, 'one'=单曲循环, 'random'=随机播放
 	playMode: "list",
@@ -50,10 +50,17 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "school days",
+				artist: "Chuck Berry",
+				url: "/assets/music/School Days-Chuck Berry.mp3",
+				cover: "/assets/music/cover/cover1.jpg",
+				lrc: "",
+			},
+			{
+				name: "Max Riser - Ladyfingers Lofi.mp3",
+				artist: "Max Riser",
+				url: "/assets/music/Max Riser - Ladyfingers Lofi.mp3",
+				cover: "/assets/music/cover/cover2.jpg",
 				lrc: "",
 			},
 		],

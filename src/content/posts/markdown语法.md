@@ -1,16 +1,92 @@
 ---
-title: Markdown 教程
-published: 1970-01-01
-pinned: false
-description: 一个简明的 Markdown 博客示例。
-tags: [Markdown, 文章示例]
-category: 文章示例
-licenseName: "未授权"
-author: emn178
-sourceLink: "https://github.com/emn178/markdown"
+title: Markdown 书写指南/示例链接 (自用)
+published: 2026-05-18
+description: Markdown 书写指南/示例链接
+tags:
+  - markdown
+  - utility_tools
+category: blog
+slug: md
+pinned: true
 draft: false
-
 ---
+title:
+```
+---
+title: 
+published: 2026-0-0
+description: 
+tags: [utility tools, markdown, MBGA, ACGN, blog]
+category: utility tools, markdown, MBGA, ACGN, blog
+slug: 
+draft: false
+---
+```
+github小方块：
+```
+::github{repo=""}
+```
+提示：
+```
+> [!NOTE] NOTE
+> 
+
+> [!TIP] TIP
+> 
+
+> [!IMPORTANT] IMPORTANT
+> 
+
+> [!WARNING] WARNING
+> 
+
+> [!CAUTION] CAUTION
+> 
+
+> [!TIP] 自定义标题
+> 
+```
+隐藏文字：
+```
+ :spoiler[内容]
+```
+多张图片同一行横向展示：
+```
+[grid]
+![示例图片一](./images/firefly1.avif)
+![示例图片二](./images/firefly2.avif)
+![示例图片二](./images/firefly3.avif)
+[/grid]
+```
+插入b站视频：
+```
+<div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="//www.bilibili.com/blackboard/html5mobileplayer.html?填iframe链接现在的问号后面的" frameborder="no" scrolling="no"></iframe>
+</div>
+```
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 这是一个展示如何编写 Markdown 文件的示例。本文档汇总了核心语法与常见扩展（GFM）。
 
@@ -1001,3 +1077,70 @@ This is another regular paragraph.
   **No Work**
 </div>
 ***
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+# **Markdown 书写指南/示例链接**：
+
+[flyfire博客文章示例](https://firefly.cuteleaf.cn/archive/?category=%E6%96%87%E7%AB%A0%E7%A4%BA%E4%BE%8B)
+
+### 主流平台
+- **GitHub (GFM - GitHub Flavored Markdown)**  
+  官方基础语法指南：**[官方基础语法指南](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)**  
+  完整 GFM 规范：**[完整 GFM 规范](https://github.github.com/gfm/)**
+
+- **GitLab (GLFM)**  
+  官方文档：**[官方文档](https://docs.gitlab.com/user/markdown/)**
+
+- **Stack Overflow / Stack Exchange**  
+  Markdown 编辑帮助：**[Markdown 编辑帮助](https://stackoverflow.com/editing-help)**  
+  格式化帮助：**[格式化帮助](https://stackoverflow.com/help/formatting)**
+
+- **Reddit**  
+  官方格式化指南：**[官方格式化指南](https://support.reddithelp.com/hc/en-us/articles/360043033952-Formatting-Guide)**
+
+### 本地/笔记类工具
+- **Obsidian**  
+  基础语法：**[https://obsidian.md/help/syntax](https://obsidian.md/help/syntax)**  
+  Obsidian 扩展语法：**[https://obsidian.md/help/obsidian-flavored-markdown](https://obsidian.md/help/obsidian-flavored-markdown)**
+
+- **Notion**  
+  Markdown 快捷键与支持（帮助中心）：**[https://www.notion.com/help/writing-and-editing-basics](https://www.notion.com/help/writing-and-editing-basics)**（搜索 “Markdown” 部分）  
+  开发者增强 Markdown 参考（API）：**[https://developers.notion.com/guides/data-apis/enhanced-markdown](https://developers.notion.com/guides/data-apis/enhanced-markdown)**
+
+### 中文主流平台
+- **语雀 (Yuque)**  
+  语雀高度兼容 GFM，可直接参考 GitHub 语法，平台内编辑器也支持快捷输入
+
+### 通用标准参考
+- 原始 Markdown 语法（John Gruber）：http://daringfireball.net/projects/markdown/syntax
+- CommonMark 规范（最接近现代标准的）：https://commonmark.org/
+
+**TIPS**：  
+大多数平台都**高度兼容 GitHub Flavored Markdown (GFM)**，所以先掌握 GitHub 的官方指南，就能覆盖 80% 的使用场景。遇到平台特定差异时，再查对应平台的文档。
+
