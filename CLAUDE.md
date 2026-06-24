@@ -152,3 +152,69 @@ Icons/LQIP data are generated into `src/constants/` and committed. Regenerate wi
 4. **wrangler.jsonc**：更新 name 和 compatibility_date
 5. **验证**：确认文件完整性 + 配置无语法错误
 
+---
+
+## 2026-06-24 工作记录
+
+### 备份
+
+项目已备份至 `V:\newastroblog\raynardsblog-backup-20260624\`。
+
+### 博客反模式审计
+
+基于文章《技术向善，但别恶心人》(https://blog.zhilu.site/2025/unpopular-blog-tech) 对项目进行了全面审计。
+
+**结论：项目整体质量很好。** 文章批评的多数反模式（切标签改标题、自动播放、自定义光标、禁右键、禁复制、禁 devtools、PWA 滥用、Service Worker、CSR 渲染等）本项目均未实现。
+
+发现的问题及处理：
+
+| 问题 | 严重度 | 处理 |
+|---|---|---|
+| Canonical URL 缺失 | HIGH | 暂不改（不影响速度/体验，纯 SEO） |
+| 第三方 CDN 依赖过多 | HIGH | 暂不改（均为条件加载，正常浏览不触发） |
+| JSON-LD 不完整 | MEDIUM | 暂不改 |
+| OG 图片默认禁用 | MEDIUM | 暂不改 |
+| RSS fallback 域名错误 | MEDIUM | 暂不改 |
+| Swup 插件过多 | LOW | 暂不改（功能正常时重构风险大于收益） |
+| **低对比度文字** | LOW | ✅ **已修复** |
+
+### 已执行的改动
+
+#### 1. 低对比度文字修复
+
+**文件**：`src/styles/main.css:357-365`
+
+| 类名 | 改前 | 改后 |
+|---|---|---|
+| `.text-25` | `text-black/25` (25%) | `text-black/45` (45%) |
+| `.text-30` | `text-black/30` (30%) | `text-black/50` (50%) |
+| `.text-50` | `text-black/50` (50%) | `text-black/65` (65%) |
+
+所有使用这些类名的组件自动生效（ArchivePanel、PostMeta、Footer、标签页、分类页等），无需逐个修改。
+
+#### 2. 文章正文字号放大
+
+**文件**：`src/components/common/Markdown.astro:10`
+
+`prose-base` → `prose-lg`（正文 16px → 18px，标题等层级等比放大）
+
+#### 3. 软件相关文章批量添加 APP 标签
+
+对 13 篇软件/应用介绍类文章，添加了 `APP` tag 并将 `category` 改为 `APP`：
+
+- Make Bilibili Great Again.md
+- claude-code.md
+- imgbed.md
+- manga_app.md
+- wakeup课程表.md
+- 下载Trollstore巨魔商店.md
+- 使用office-tool-plus免費安裝office全家桶.md
+- 免費聽音樂app.md
+- 声音流转方法.md
+- 浏览器插件推荐.md
+- 第三方客户端推荐.md
+- 阅读小说指南：软件推荐与书籍获取方法.md
+- 音乐下载本地部署教程.md
+
+此外，`QtScrcpy.md` 和 `anime_app.md` 已有 APP tag，未重复添加。另有 8 篇符合条件的文章（Proxy SwitchyOmega、Tempermonkey、bilibili视频下载方案、chabot、pt.0、steam装拓展教程、如何拥有属于自己的企业级邮箱、激活windows）当时脚本遗漏，尚未处理。
+

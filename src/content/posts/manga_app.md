@@ -2,7 +2,8 @@
 title: 漫畫軟件
 published: 2026-03-01
 description: 漫畫軟件
-category: ACGN
+category: APP
+tags: [APP]
 slug: manga
 draft: false
 ---

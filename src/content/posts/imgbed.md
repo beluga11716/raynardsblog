@@ -4,10 +4,11 @@ published: 2026-06-13
 updated: 2026-06-13
 description: 如何拥有一个属于自己的私人图床
 tags:
+  - APP
   - utility_tools
   - blog
   - just_for_fun
-category: utility tools
+category: APP
 draft: false
 slug: imgbed
 author: raynard

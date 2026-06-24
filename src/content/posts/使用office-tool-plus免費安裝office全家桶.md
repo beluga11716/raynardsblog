@@ -4,8 +4,9 @@ published: 2026-05-23
 updated: 2026-05-23
 description: 使用office-tool-plus免費安裝office全家桶
 tags:
+  - APP
   - utility_tools
-category: utility tools
+category: APP
 draft: false
 slug: office
 author: raynard

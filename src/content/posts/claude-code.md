@@ -4,9 +4,10 @@ published: 2026-06-18
 updated: 2026-06-18
 description: claudecode安装教程
 tags:
+  - APP
   - utility_tools
   - just_for_fun
-category: utility tools
+category: APP
 draft: false
 slug: cc
 author: raynard
