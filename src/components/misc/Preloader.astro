@@ -1,0 +1,131 @@
+---
+// Spiral Search 预加载动画
+// 与 personalsite 同款
+---
+
+<div id="preloader" style="
+  position:fixed;inset:0;z-index:9999;display:grid;place-items:center;
+  background:#000;transition:opacity 0.5s ease;
+">
+  <div style="display:grid;gap:14px;justify-items:center;">
+    <svg viewBox="0 0 100 100" fill="none" aria-hidden="true"
+         style="width:min(36vmin,180px);height:min(36vmin,180px);overflow:visible;">
+      <g id="pl-group">
+        <path id="pl-path" stroke="#5a9e8a" stroke-linecap="round"
+              stroke-linejoin="round" opacity="0.12" stroke-width="4.3"></path>
+      </g>
+    </svg>
+    <span style="
+      color:rgba(255,255,255,0.38);font-size:11px;letter-spacing:0.22em;
+      text-transform:uppercase;font-family:Inter,system-ui,sans-serif;
+    ">Loading</span>
+  </div>
+</div>
+
+<script is:inline>
+  // ── Spiral Search preloader animation ──────────────────────────
+  (function () {
+    var SVG_NS = 'http://www.w3.org/2000/svg';
+    var cfg = {
+      particleCount: 86,
+      trailSpan: 0.28,
+      durationMs: 7800,
+      strokeWidth: 4.3,
+      searchTurns: 4,
+      searchBaseRadius: 8,
+      searchRadiusAmp: 8.5,
+      searchPulse: 2.4,
+      searchScale: 1,
+    };
+
+    function point(progress, detailScale) {
+      var t = progress * Math.PI * 2;
+      var angle = t * cfg.searchTurns;
+      var radius =
+        cfg.searchBaseRadius +
+        (1 - Math.cos(t)) * (cfg.searchRadiusAmp + detailScale * cfg.searchPulse);
+      return {
+        x: 50 + Math.cos(angle) * radius * cfg.searchScale,
+        y: 50 + Math.sin(angle) * radius * cfg.searchScale,
+      };
+    }
+
+    var group = document.getElementById('pl-group');
+    var path = document.getElementById('pl-path');
+    path.setAttribute('stroke-width', String(cfg.strokeWidth));
+
+    var particles = [];
+    for (var i = 0; i < cfg.particleCount; i++) {
+      var c = document.createElementNS(SVG_NS, 'circle');
+      c.setAttribute('fill', '#5a9e8a');
+      group.appendChild(c);
+      particles.push(c);
+    }
+
+    function normalize(p) { return ((p % 1) + 1) % 1; }
+
+    function detailScale(time) {
+      var dp = (time % 6800) / 6800;
+      return 0.52 + ((Math.sin(dp * Math.PI * 2 + 0.55) + 1) / 2) * 0.48;
+    }
+
+    function buildPath(ds, steps) {
+      steps = steps || 480;
+      var d = '';
+      for (var i = 0; i <= steps; i++) {
+        var pt = point(i / steps, ds);
+        d += (i === 0 ? 'M' : 'L') + ' ' + pt.x.toFixed(2) + ' ' + pt.y.toFixed(2) + ' ';
+      }
+      return d;
+    }
+
+    function getParticle(index, progress, ds) {
+      var tail = index / (cfg.particleCount - 1);
+      var pt = point(normalize(progress - tail * cfg.trailSpan), ds);
+      var fade = Math.pow(1 - tail, 0.56);
+      return {
+        x: pt.x,
+        y: pt.y,
+        radius: 0.9 + fade * 2.7,
+        opacity: 0.04 + fade * 0.96,
+      };
+    }
+
+    var start = performance.now();
+    var MIN_DISPLAY_MS = 600;
+    var animationId;
+
+    function render(now) {
+      var time = now - start;
+      var progress = (time % cfg.durationMs) / cfg.durationMs;
+      var ds = detailScale(time);
+      path.setAttribute('d', buildPath(ds));
+      for (var j = 0; j < particles.length; j++) {
+        var p = getParticle(j, progress, ds);
+        particles[j].setAttribute('cx', p.x.toFixed(2));
+        particles[j].setAttribute('cy', p.y.toFixed(2));
+        particles[j].setAttribute('r', p.radius.toFixed(2));
+        particles[j].setAttribute('opacity', p.opacity.toFixed(3));
+      }
+      animationId = requestAnimationFrame(render);
+    }
+    requestAnimationFrame(render);
+
+    // 页面加载完成后淡出
+    var preloader = document.getElementById('preloader');
+    function hidePreloader() {
+      cancelAnimationFrame(animationId);
+      preloader.style.opacity = '0';
+      setTimeout(function () {
+        preloader.remove();
+      }, 500);
+    }
+
+    var elapsed = performance.now() - start;
+    var remaining = Math.max(0, MIN_DISPLAY_MS - elapsed);
+
+    window.addEventListener('load', function () {
+      setTimeout(hidePreloader, remaining);
+    });
+  })();
+</script>

@@ -8,6 +8,7 @@ import FontSetup from "@components/features/FontSetup.astro";
 import MusicManager from "@components/features/MusicManager.astro";
 import SakuraEffect from "@components/features/SakuraEffect.astro";
 import ConfigCarrier from "@components/layout/ConfigCarrier.astro";
+import Preloader from "@components/misc/Preloader.astro";
 
 import {
 	analyticsConfig,
@@ -565,6 +566,7 @@ const siteLang = lang.replace("_", "-");
     ]}
   >
 
+    <Preloader />
     <div id="progress-bar"></div>
 
     <!-- 页面顶部渐变高光效果 - 只在full和semifull模式下显示 -->
